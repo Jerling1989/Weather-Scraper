@@ -36,7 +36,7 @@
 
 				<form method="post">
 					<div class="form-group">
-						<input type="text" name="user-search" class="form-control" placeholder="New York City" />
+						<input type="text" name="user-search" id="user-search" class="form-control" placeholder="Eg. London, Hong Kong, New York City..." />
 					</div>
 
 					<button type="submit" class="btn btn-primary btn-lg">Submit</button>
