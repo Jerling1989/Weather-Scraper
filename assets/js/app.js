@@ -5,7 +5,8 @@ $('#find-weather').click(function(event) {
 	if ($('#city').val() != '') {
 		$.get('./assets/php/scraper.php?city='+$('#city').val(), function(data) {
 			$('.alert-danger').css('display', 'none');
-			$('.alert-primary').html(data).fadeIn();
+			$('#forecast').html(data);
+			$('.alert-primary').fadeIn();
 
 			if(data == '') {
 				$('.alert-primary').css('display', 'none');
@@ -13,6 +14,7 @@ $('#find-weather').click(function(event) {
 			}
 		});
 	} else {
+		$('.alert-primary').css('display', 'none');
 		$('.alert-danger').html('Please Enter a City.').fadeIn();
 	}
 

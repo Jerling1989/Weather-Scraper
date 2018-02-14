@@ -42,7 +42,10 @@
 					<button type="submit" id="find-weather" class="btn btn-primary btn-lg">Submit</button>
 				</form>
 
-				<div class="alert alert-primary" role="alert"></div>
+				<div class="alert alert-primary" role="alert">
+					<p>Three Day Weather Forecast:</p>
+					<span id="forecast"></span>
+				</div>
 
 				<div class="alert alert-danger" role="alert"></div>
 
