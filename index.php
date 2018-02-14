@@ -32,7 +32,7 @@
 			<div id="weather-panel" class="col-12 col-sm-10 col-md-8">
 
 				<h1>WEATHER FINDER</h1>
-				<p>Search any Address, City, or Zip Code to find the current weather anywhere in the World!</p>
+				<p>Search any City name to find the current weather anywhere in the World!</p>
 
 				<form method="post">
 					<div class="form-group">
