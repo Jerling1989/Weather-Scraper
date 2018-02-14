@@ -1,5 +1,5 @@
 body {
-	width: 100;
+	width: 100%;
 	background-image: url(../img/weather-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -34,6 +34,16 @@ p {
 	padding: 10px;
 }
 
-.btn-lg {
+.btn-primary {
 	margin-bottom: 20px;
+}
+
+.alert-primary {
+	margin-top: 20px;
+	display: none;
+}
+
+.alert-danger {
+	margin-top: 20px;
+	display: none;
 }
