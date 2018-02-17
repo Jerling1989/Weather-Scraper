@@ -1,4 +1,8 @@
 /* GENERAL STYLES */
+html {
+	min-height: 100%;
+}
+
 body {
 	width: 100%;
 	background-image: url(../img/weather-bg.jpg);
@@ -9,7 +13,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100%;
 }
 
 h1 {
