@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<!-- PAGE TITLE -->
 	<title>Weather Scraper</title>
 
@@ -25,15 +26,20 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
+
 <body>
 
+	<!-- WEATHER INFO PANEL -->
 	<div class="container">
 		<div class="row text-center">
 			<div id="weather-panel" class="col-12 col-sm-10 col-md-8">
 
+				<!-- APP NAME/TITLE -->
 				<h1>WEATHER FINDER</h1>
+				<!-- APP INSTRUCTIONS/INFO -->
 				<p>Search any City name to find the current weather anywhere in the World!</p>
 
+				<!-- CITY SEARCH FORM -->
 				<form method="post">
 					<div class="form-group">
 						<input type="text" name="city" id="city" class="form-control" placeholder="Eg. London, Hong Kong, New York City..." />
@@ -41,18 +47,21 @@
 
 					<button type="submit" id="find-weather" class="btn btn-primary btn-lg">Submit</button>
 				</form>
+				<!-- END CITY SEARCH FORM -->
 
+				<!-- SUCCESSFUL WEATHER SEARCH ALERT -->
 				<div class="alert alert-primary" role="alert">
 					<p>Three Day Weather Forecast:</p>
 					<span id="forecast"></span>
 				</div>
 
+				<!-- ERROR WEATHER SEARCH ALERT -->
 				<div class="alert alert-danger" role="alert"></div>
 
 			</div>
 		</div>
 	</div>
-
+	<!-- END WEATHER INFO PANEL -->
 
 
 <!-- JQUERY CDN -->
