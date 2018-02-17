@@ -12,7 +12,8 @@ I made this app to practice some basic backend coding with PHP. The app is built
 - Here is another example using the city of Chattanooga, Tennessee
 ![CHATTANOOGA](assets/img/read_me/chattanooga.png)
 
-- When a user mispells a city they will recieve an alert to try the search again.
+- When a user mispells a city they will recieve a Bootstrap alert to try the search again.
 ![TYPO](assets/img/read_me/typo.png)
 
+- When a user submits a search without filling out the form field they will recieve a Bootstrap alert to enter a city and search again.
 ![NO SEARCH](assets/img/read_me/no-search.png)
