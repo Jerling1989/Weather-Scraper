@@ -9,6 +9,7 @@ I made this app to practice some basic backend coding with PHP. The app is built
 - Once the user enters a city to search for the app will display the 3 Day Forecast for that city in a Bootstrap alert underneath the search form. This example uses the city of Los Angeles.
 ![LOS ANGELES](assets/img/read_me/los-angeles.png)
 
+- Here is another example using the city of Chattanooga, Tennessee
 ![CHATTANOOGA](assets/img/read_me/chattanooga.png)
 
 ![TYPO](assets/img/read_me/typo.png)
