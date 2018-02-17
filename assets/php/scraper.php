@@ -1,4 +1,5 @@
 <?php
+
 	// GET VALUE FROM FROM FORM INPUT FIELD
 	$city = $_GET['city'];
 
