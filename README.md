@@ -6,6 +6,9 @@ I made this app to practice some basic backend coding with PHP. The app is built
 - This is the first thing the user will see when the app loads. There is the app name "Weather Finder" and brief instructions for what to do. There is a form text input for the user to enter a city name and a simple submit button.
 ![INTRO](assets/img/read_me/intro.png)
 
+- Once the user enters a city to search for the app will display the 3 Day Forecast for that city in a Bootstrap alert underneath the search form. This example uses the city of Los Angeles.
+
+
 ![LOS ANGELES](assets/img/read_me/los-angeles.png)
 
 ![CHATTANOOGA](assets/img/read_me/chattanooga.png)
