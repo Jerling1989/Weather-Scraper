@@ -1,3 +1,4 @@
+/* GENERAL STYLES */
 body {
 	width: 100%;
 	background-image: url(../img/weather-bg.jpg);
@@ -8,15 +9,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#weather-panel {
-	width: 80%;
-	height: auto;
-	margin: auto;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 10px;
-	margin-top: 60px;
 }
 
 h1 {
@@ -32,6 +24,17 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	padding: 10px;
+}
+
+
+/* WEATHER INFO PANEL STYLES */
+#weather-panel {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin-top: 60px;
 }
 
 .btn-primary {
