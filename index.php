@@ -42,7 +42,7 @@
 				<!-- CITY SEARCH FORM -->
 				<form method="post">
 					<div class="form-group">
-						<input type="text" name="city" id="city" class="form-control" placeholder="Eg. London, Hong Kong, New York City..." />
+						<input type="text" name="city" id="city" class="form-control" placeholder="Eg. London, Hong Kong, New York..." />
 					</div>
 
 					<button type="submit" id="find-weather" class="btn btn-primary btn-lg">Submit</button>

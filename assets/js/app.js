@@ -10,7 +10,11 @@ $('#find-weather').click(function(event) {
 			// BLOCK ERROR ALERT FROM DISPLAYING
 			$('.alert-danger').css('display', 'none');
 			// ADD DATA FROM PHP SCRAPE TO THE SUCCESSFUL WEATHER SEARCH ALERT
+
+			// ~~~~ MESS AROUND WITH (data), CHANGE CELCIUS NUMBERS TO FAHRENHEIT BEFORE DISPLAYING ~~~~~~ //
 			$('#forecast').html(data);
+			
+
 			// FADE IN SUCCESFUL WEATHER ALERT TO DISPLAY
 			$('.alert-primary').fadeIn();
 
